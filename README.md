@@ -3,17 +3,29 @@
 CLI Calculator with Python and Docker
 The purpose of this project is to learn how Docker works. So I build a simple command-line calculator using Python and used Docker to containerize the application.
 The goal
+
 Learn and practice the following DevOps principles:
+
 •	Remote Development: I used VS Code to connect to my homelab Ubuntu server via SSH and develop the project simulating a production enviroment
+
 •	Containerization: Packaging the Python application and its dependencies into a Docker container for consistency and portability.
+
 •	Containerization: My main goal was to package the Python application a its dependencies into a Docker container for the standardization and portability.
+
 •	Version Control: Used Git for managing the source code, with commit changes and pushes to this GitHub repository.
+
 •	Container Orchestration: Using docker-compose to define and run the application's container.
+
 •	Image Registries: Pushing a container image to Docker Hub to make it available for download and deployment on any other machine.
+
+
 How to Run the Calculator
+
 Make sure you have Docker on your machine and just follow these steps:
+
 1.	docker pull gkoto/cli-calculator:latest to pull the pre-built image from Docker Hub.
-2.	docker run -it gkoto/cli-calculator:latest to run the application using interactive mode.
+2.	
+3.	docker run -it gkoto/cli-calculator:latest to run the application using interactive mode.
 
 Challenges
 This was my very first project ever working with Docker and Git, so I faced a lot of newbie mistakes, but that is part of the learning process and was very good to evolve and document this process.
