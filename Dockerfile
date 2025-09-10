@@ -1,0 +1,8 @@
+FROM python:3.10-slim
+
+WORKDIR /app
+
+COPY requirements.txt
+RUN pip install numpy pandas
+
+CMD ["python", "calculator.py"]

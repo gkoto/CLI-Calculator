@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  cli-calculator:
+    build:
+      context: .
+    volumes:
+      - .:/app
+    command: python calculator.py
