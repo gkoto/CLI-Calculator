@@ -1,2 +1,2 @@
 # CLI-Calculator
-I am build a CLI Calculator to improve my python and container usage skills.
+I am building a CLI Calculator to improve my python and container usage skills.
